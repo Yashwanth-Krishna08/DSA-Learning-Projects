@@ -1,137 +1,92 @@
-# 🚀 C++ STL & DSA Learning Projects
+# 📚 Queue Projects in C++
 
-This repository contains mini projects built while learning **C++**, **STL**, and **Data Structures & Algorithms**. The goal is to understand concepts deeply by implementing practical applications instead of only solving isolated problems.
-
----
-
-## 📚 Topics Covered
-
-### 📌 Stack
-- ✅ Mini To-Do List
-- ✅ Parentheses Validator
-
-Concepts:
-- `push()`
-- `pop()`
-- `top()`
-- `empty()`
-- LIFO principle
+This branch contains mini projects built while learning the **Queue** data structure in C++ using the Standard Template Library (STL).
 
 ---
 
-### 📌 Queue
-- ✅ Token Management System
+## 🚀 Projects
 
-Concepts:
+### ✅ Token Management System
+
+A simple token system that simulates serving customers in a First In, First Out (FIFO) manner.
+
+#### Features
+- Add a new token
+- Serve the next customer
+- Show the next token
+- Show all waiting tokens
+- Display the number of waiting customers
+
+#### Concepts Used
 - `push()`
 - `pop()`
 - `front()`
 - `back()`
-- FIFO principle
-
----
-
-### 📌 Set
-- ✅ Roll Number Management System
-
-Concepts:
-- `insert()`
-- `find()`
-- `erase()`
 - `size()`
-- Unique elements
+- `empty()`
+- Queue traversal using a temporary queue
+- FIFO (First In, First Out)
 
 ---
 
-### 📌 Multiset
-- ✅ Student Attendance System
+## 📖 Topics Learned
 
-Concepts:
-- Duplicate elements
-- `count()`
-- Frequency counting
-
----
-
-### 📌 Unordered Set
-- ✅ Parking Lot Manager
-
-Concepts:
-- Fast searching
-- Unique elements
-- Average O(1) lookup
+- Queue fundamentals
+- FIFO principle
+- STL `std::queue`
+- Queue operations
+- Traversing a queue using a copy
+- Designing menu-driven applications
 
 ---
 
-## 🛠 Repository Structure
+## 🛠 Technologies
+
+- C++
+- STL (`<queue>`)
+- VS Code
+
+---
+
+## Example
+
+### Add Tokens
 
 ```text
-DSA-Learning-Projects
-│
-├── Stack
-│   ├── MiniTodoList.cpp
-│   └── ParenthesesValidator.cpp
-│
-├── Queue
-│   └── TokenManagementSystem.cpp
-│
-├── Set
-│   └── RollNumberManagementSystem.cpp
-│
-├── Multiset
-│   └── StudentAttendanceSystem.cpp
-│
-├── UnorderedSet
-│   └── ParkingLotManager.cpp
-│
-└── README.md
+1
+2
+3
+```
+
+Queue:
+
+```text
+Front → 1 2 3 ← Rear
+```
+
+### Serve One Customer
+
+Queue:
+
+```text
+Front → 2 3 ← Rear
+```
+
+### Next Token
+
+```text
+2
 ```
 
 ---
 
-## 🎯 Goals
+## 🎯 Purpose
 
-- Learn STL deeply
-- Master Data Structures and Algorithms
-- Improve problem-solving skills
-- Build practical mini projects
-- Prepare for placements and software engineering roles
+These projects are part of my journey to master **C++**, **STL**, and **Data Structures & Algorithms** by building practical applications instead of only solving problems.
 
 ---
 
-## 📈 Learning Roadmap
-
-### ✅ Completed
-- C++ Basics
-- OOP
-- Vector
-- Pair
-- Sorting
-- Stack
-- Queue
-- Set
-- Multiset
-- Unordered Set
-
-### 🔄 Currently Learning
-- Priority Queue
-- Big O Notation
-
-### 📌 Upcoming
-- Map
-- Unordered Map
-- Recursion
-- Linked List
-- Binary Search
-- Trees
-- Graphs
-- Dynamic Programming
 
 ---
 
-## 🌱 This Repository Will Continuously Grow
-
-New projects and topics will be added as I progress through my C++ and DSA journey.
-
----
-⭐ Learning by building.
+⭐ Learning DSA by building projects.
