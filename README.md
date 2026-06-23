@@ -1,137 +1,100 @@
-# 🚀 C++ STL & DSA Learning Projects
+# 📚 Stack Projects in C++
 
-This repository contains mini projects built while learning **C++**, **STL**, and **Data Structures & Algorithms**. The goal is to understand concepts deeply by implementing practical applications instead of only solving isolated problems.
+This branch contains mini projects built while learning the **Stack** data structure in C++ using the Standard Template Library (STL).
 
 ---
 
-## 📚 Topics Covered
+## 🚀 Projects
 
-### 📌 Stack
-- ✅ Mini To-Do List
-- ✅ Parentheses Validator
+### ✅ Mini To-Do List
 
-Concepts:
+A simple task manager implemented using `std::stack`.
+
+#### Features
+- Add tasks
+- Complete the latest task
+- View pending tasks
+
+#### Concepts Used
 - `push()`
 - `pop()`
 - `top()`
 - `empty()`
-- LIFO principle
+- LIFO (Last In, First Out)
 
 ---
 
-### 📌 Queue
-- ✅ Token Management System
+### ✅ Parentheses Validator
 
-Concepts:
-- `push()`
-- `pop()`
-- `front()`
-- `back()`
-- FIFO principle
+Checks whether parentheses `()` in an expression are balanced using a stack.
 
----
+#### Examples
 
-### 📌 Set
-- ✅ Roll Number Management System
-
-Concepts:
-- `insert()`
-- `find()`
-- `erase()`
-- `size()`
-- Unique elements
-
----
-
-### 📌 Multiset
-- ✅ Student Attendance System
-
-Concepts:
-- Duplicate elements
-- `count()`
-- Frequency counting
-
----
-
-### 📌 Unordered Set
-- ✅ Parking Lot Manager
-
-Concepts:
-- Fast searching
-- Unique elements
-- Average O(1) lookup
-
----
-
-## 🛠 Repository Structure
+Input:
 
 ```text
-DSA-Learning-Projects
-│
-├── Stack
-│   ├── MiniTodoList.cpp
-│   └── ParenthesesValidator.cpp
-│
-├── Queue
-│   └── TokenManagementSystem.cpp
-│
-├── Set
-│   └── RollNumberManagementSystem.cpp
-│
-├── Multiset
-│   └── StudentAttendanceSystem.cpp
-│
-├── UnorderedSet
-│   └── ParkingLotManager.cpp
-│
-└── README.md
+(()())
 ```
 
----
+Output:
 
-## 🎯 Goals
+```text
+Valid
+```
 
-- Learn STL deeply
-- Master Data Structures and Algorithms
-- Improve problem-solving skills
-- Build practical mini projects
-- Prepare for placements and software engineering roles
+Input:
 
----
+```text
+(()(
+```
 
-## 📈 Learning Roadmap
+Output:
 
-### ✅ Completed
-- C++ Basics
-- OOP
-- Vector
-- Pair
-- Sorting
-- Stack
-- Queue
-- Set
-- Multiset
-- Unordered Set
+```text
+Invalid
+```
 
-### 🔄 Currently Learning
-- Priority Queue
-- Big O Notation
-
-### 📌 Upcoming
-- Map
-- Unordered Map
-- Recursion
-- Linked List
-- Binary Search
-- Trees
-- Graphs
-- Dynamic Programming
+#### Concepts Used
+- `push()`
+- `pop()`
+- `top()`
+- `empty()`
+- Stack-based matching
 
 ---
 
-## 🌱 This Repository Will Continuously Grow
+## 📖 Topics Learned
 
-New projects and topics will be added as I progress through my C++ and DSA journey.
+- Stack fundamentals
+- LIFO principle
+- STL `std::stack`
+- Basic problem solving with stacks
+- Applying stacks to real-world problems
 
 ---
-⭐ Learning by building.
+
+## 🛠 Technologies
+
+- C++
+- STL (`<stack>`)
+- VS Code
+
+---
+
+## 🎯 Purpose
+
+These projects are part of my journey to master **C++**, **STL**, and **Data Structures & Algorithms** through practical implementations.
+
+---
+
+## 🌱 Future Improvements
+
+- Browser History Simulator
+- Undo/Redo System
+- Expression Evaluator
+- Advanced Bracket Validator (`()`, `{}`, `[]`)
+- Infix to Postfix Conversion
+
+---
+
+⭐ Learning DSA by building projects.
