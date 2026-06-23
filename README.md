@@ -87,14 +87,5 @@ These projects are part of my journey to master **C++**, **STL**, and **Data Str
 
 ---
 
-## 🌱 Future Improvements
-
-- Browser History Simulator
-- Undo/Redo System
-- Expression Evaluator
-- Advanced Bracket Validator (`()`, `{}`, `[]`)
-- Infix to Postfix Conversion
-
----
 
 ⭐ Learning DSA by building projects.
