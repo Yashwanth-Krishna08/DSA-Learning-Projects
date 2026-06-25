@@ -1,137 +1,120 @@
-# 🚀 C++ STL & DSA Learning Projects
+# 📚 Multiset Projects in C++
 
-This repository contains mini projects built while learning **C++**, **STL**, and **Data Structures & Algorithms**. The goal is to understand concepts deeply by implementing practical applications instead of only solving isolated problems.
-
----
-
-## 📚 Topics Covered
-
-### 📌 Stack
-- ✅ Mini To-Do List
-- ✅ Parentheses Validator
-
-Concepts:
-- `push()`
-- `pop()`
-- `top()`
-- `empty()`
-- LIFO principle
+This branch contains mini projects built while learning the **Multiset** data structure in C++ using the Standard Template Library (STL).
 
 ---
 
-### 📌 Queue
-- ✅ Token Management System
+## 🚀 Projects
 
-Concepts:
-- `push()`
-- `pop()`
-- `front()`
-- `back()`
-- FIFO principle
+### ✅ Student Attendance System
 
----
+A simple attendance management system implemented using `std::multiset`.
 
-### 📌 Set
-- ✅ Roll Number Management System
+Unlike a `set`, a `multiset` allows duplicate values, making it useful for recording multiple attendance entries for the same student.
 
-Concepts:
+#### Features
+- Mark attendance
+- Count attendance of a student
+- Show all attendance entries
+- Store duplicate roll numbers
+
+#### Concepts Used
 - `insert()`
-- `find()`
-- `erase()`
-- `size()`
-- Unique elements
-
----
-
-### 📌 Multiset
-- ✅ Student Attendance System
-
-Concepts:
-- Duplicate elements
 - `count()`
+- `size()`
+- `empty()`
+- Range-based for loops
 - Frequency counting
+- Duplicate element storage
 
 ---
 
-### 📌 Unordered Set
-- ✅ Parking Lot Manager
+## 📖 Topics Learned
 
-Concepts:
-- Fast searching
-- Unique elements
-- Average O(1) lookup
+- Multiset fundamentals
+- Difference between `set` and `multiset`
+- Storing duplicate values
+- Counting occurrences using `count()`
+- Traversing a multiset
+- Frequency-based applications
 
 ---
 
-## 🛠 Repository Structure
+## 🛠 Technologies
+
+- C++
+- STL (`<set>`)
+- VS Code
+
+---
+
+## Example
+
+### Attendance Entries
 
 ```text
-DSA-Learning-Projects
-│
-├── Stack
-│   ├── MiniTodoList.cpp
-│   └── ParenthesesValidator.cpp
-│
-├── Queue
-│   └── TokenManagementSystem.cpp
-│
-├── Set
-│   └── RollNumberManagementSystem.cpp
-│
-├── Multiset
-│   └── StudentAttendanceSystem.cpp
-│
-├── UnorderedSet
-│   └── ParkingLotManager.cpp
-│
-└── README.md
+101
+105
+101
+102
+101
+```
+
+### Stored in Multiset
+
+```text
+101
+101
+101
+102
+105
+```
+
+### Attendance Count
+
+Input:
+
+```text
+101
+```
+
+Output:
+
+```text
+3
 ```
 
 ---
 
-## 🎯 Goals
+## 🎯 Purpose
 
-- Learn STL deeply
-- Master Data Structures and Algorithms
-- Improve problem-solving skills
-- Build practical mini projects
-- Prepare for placements and software engineering roles
+This project is part of my journey to master **C++**, **STL**, and **Data Structures & Algorithms** through practical implementations.
+
+The goal is to understand when duplicate data is useful and how frequency-based operations can be performed efficiently.
 
 ---
 
-## 📈 Learning Roadmap
+## Concepts Demonstrated
 
-### ✅ Completed
-- C++ Basics
-- OOP
-- Vector
-- Pair
-- Sorting
-- Stack
-- Queue
-- Set
-- Multiset
-- Unordered Set
-
-### 🔄 Currently Learning
-- Priority Queue
-- Big O Notation
-
-### 📌 Upcoming
-- Map
-- Unordered Map
-- Recursion
-- Linked List
-- Binary Search
-- Trees
-- Graphs
-- Dynamic Programming
+| Operation | Function |
+|------------|-----------|
+| Add Entry | `insert()` |
+| Count Frequency | `count()` |
+| Count Total Entries | `size()` |
+| Check Empty | `empty()` |
+| Traverse | Range-based for loop |
 
 ---
 
-## 🌱 This Repository Will Continuously Grow
+## Difference Between Set and Multiset
 
-New projects and topics will be added as I progress through my C++ and DSA journey.
+| Feature | Set | Multiset |
+|----------|------|-----------|
+| Duplicates Allowed | ❌ No | ✅ Yes |
+| Sorted | ✅ Yes | ✅ Yes |
+| Search | O(log n) | O(log n) |
+| Insert | O(log n) | O(log n) |
 
 ---
-⭐ Learning by building.
+
+⭐ Learning DSA by building projects.
