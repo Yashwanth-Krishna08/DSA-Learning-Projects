@@ -1,91 +1,106 @@
-# 📚 Queue Projects in C++
+# 📚 Set Projects in C++
 
-This branch contains mini projects built while learning the **Queue** data structure in C++ using the Standard Template Library (STL).
+This branch contains mini projects built while learning the **Set** data structure in C++ using the Standard Template Library (STL).
 
 ---
 
 ## 🚀 Projects
 
-### ✅ Token Management System
+### ✅ Roll Number Management System
 
-A simple token system that simulates serving customers in a First In, First Out (FIFO) manner.
+A simple system for managing student roll numbers using `std::set`.
 
 #### Features
-- Add a new token
-- Serve the next customer
-- Show the next token
-- Show all waiting tokens
-- Display the number of waiting customers
+- Add a roll number
+- Search for a roll number
+- Remove a roll number
+- Display all roll numbers
+- Prevent duplicate entries automatically
 
 #### Concepts Used
-- `push()`
-- `pop()`
-- `front()`
-- `back()`
+- `insert()`
+- `find()`
+- `erase()`
 - `size()`
 - `empty()`
-- Queue traversal using a temporary queue
-- FIFO (First In, First Out)
+- Range-based for loops
+- Unique element storage
+- Automatic sorting
 
 ---
 
 ## 📖 Topics Learned
 
-- Queue fundamentals
-- FIFO principle
-- STL `std::queue`
-- Queue operations
-- Traversing a queue using a copy
-- Designing menu-driven applications
+- Set fundamentals
+- Unique data storage
+- Automatic sorting of elements
+- Searching in a set
+- Removing elements from a set
+- Traversing a set
 
 ---
 
 ## 🛠 Technologies
 
 - C++
-- STL (`<queue>`)
+- STL (`<set>`)
 - VS Code
 
 ---
 
 ## Example
 
-### Add Tokens
+### Input
 
 ```text
-1
-2
-3
+101
+105
+101
+102
+110
 ```
 
-Queue:
+### Stored in Set
 
 ```text
-Front → 1 2 3 ← Rear
+101
+102
+105
+110
 ```
 
-### Serve One Customer
-
-Queue:
-
-```text
-Front → 2 3 ← Rear
-```
-
-### Next Token
-
-```text
-2
-```
+Duplicate roll numbers are automatically ignored.
 
 ---
 
 ## 🎯 Purpose
 
-These projects are part of my journey to master **C++**, **STL**, and **Data Structures & Algorithms** by building practical applications instead of only solving problems.
+This project is part of my journey to master **C++**, **STL**, and **Data Structures & Algorithms** through practical implementations.
+
+By building projects, I aim to understand not only how a data structure works, but also where and why it is used.
 
 ---
 
+## 🌱 Future Improvements
+
+- Unique Username System
+- Event Registration System
+- Library Book ID Manager
+- Exam Hall Seat Allocation System
+- Student Database using Set
+
+---
+
+## Concepts Demonstrated
+
+| Operation | Function |
+|------------|-----------|
+| Add Element | `insert()` |
+| Search Element | `find()` |
+| Remove Element | `erase()` |
+| Count Elements | `size()` |
+| Check Empty | `empty()` |
+| Traverse | Range-based for loop |
 
 ---
 
