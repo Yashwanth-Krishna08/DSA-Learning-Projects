@@ -1,137 +1,134 @@
-# 🚀 C++ STL & DSA Learning Projects
+# 📚 Unordered Set Projects in C++
 
-This repository contains mini projects built while learning **C++**, **STL**, and **Data Structures & Algorithms**. The goal is to understand concepts deeply by implementing practical applications instead of only solving isolated problems.
-
----
-
-## 📚 Topics Covered
-
-### 📌 Stack
-- ✅ Mini To-Do List
-- ✅ Parentheses Validator
-
-Concepts:
-- `push()`
-- `pop()`
-- `top()`
-- `empty()`
-- LIFO principle
+This branch contains mini projects built while learning the **Unordered Set** data structure in C++ using the Standard Template Library (STL).
 
 ---
 
-### 📌 Queue
-- ✅ Token Management System
+## 🚀 Projects
 
-Concepts:
-- `push()`
-- `pop()`
-- `front()`
-- `back()`
-- FIFO principle
+### ✅ Parking Lot Manager
 
----
+A simple parking lot management system implemented using `std::unordered_set`.
 
-### 📌 Set
-- ✅ Roll Number Management System
+Unlike a `set`, an `unordered_set` does not store elements in sorted order. It is designed for very fast insertion, deletion, and searching.
 
-Concepts:
+#### Features
+- Enter a car into the parking lot
+- Remove a car from the parking lot
+- Search for a parked car
+- Display all parked cars
+- Count the total number of parked cars
+- Prevent duplicate vehicle entries
+
+#### Concepts Used
 - `insert()`
 - `find()`
 - `erase()`
 - `size()`
-- Unique elements
+- `empty()`
+- Range-based for loops
+- Fast lookups
+- Unique element storage
 
 ---
 
-### 📌 Multiset
-- ✅ Student Attendance System
+## 📖 Topics Learned
 
-Concepts:
-- Duplicate elements
-- `count()`
-- Frequency counting
-
----
-
-### 📌 Unordered Set
-- ✅ Parking Lot Manager
-
-Concepts:
+- Unordered Set fundamentals
+- Hash-based data structures
 - Fast searching
-- Unique elements
-- Average O(1) lookup
+- Fast insertion and deletion
+- Difference between `set` and `unordered_set`
+- Managing unique data efficiently
 
 ---
 
-## 🛠 Repository Structure
+## 🛠 Technologies
+
+- C++
+- STL (`<unordered_set>`)
+- VS Code
+
+---
+
+## Example
+
+### Cars Entering
 
 ```text
-DSA-Learning-Projects
-│
-├── Stack
-│   ├── MiniTodoList.cpp
-│   └── ParenthesesValidator.cpp
-│
-├── Queue
-│   └── TokenManagementSystem.cpp
-│
-├── Set
-│   └── RollNumberManagementSystem.cpp
-│
-├── Multiset
-│   └── StudentAttendanceSystem.cpp
-│
-├── UnorderedSet
-│   └── ParkingLotManager.cpp
-│
-└── README.md
+KL07AB1234
+KL08XY4567
+KL07AB1234
+KL09CD7890
+```
+
+### Stored in Unordered Set
+
+```text
+KL07AB1234
+KL08XY4567
+KL09CD7890
+```
+
+Duplicate entries are automatically ignored.
+
+### Search Example
+
+Input:
+
+```text
+KL08XY4567
+```
+
+Output:
+
+```text
+Found
 ```
 
 ---
 
-## 🎯 Goals
+## 🎯 Purpose
 
-- Learn STL deeply
-- Master Data Structures and Algorithms
-- Improve problem-solving skills
-- Build practical mini projects
-- Prepare for placements and software engineering roles
+This project is part of my journey to master **C++**, **STL**, and **Data Structures & Algorithms** through practical implementations.
+
+The goal is to understand how hash-based containers work and when they are preferred over ordered containers.
 
 ---
 
-## 📈 Learning Roadmap
+## 🌱 Future Improvements
 
-### ✅ Completed
-- C++ Basics
-- OOP
-- Vector
-- Pair
-- Sorting
-- Stack
-- Queue
-- Set
-- Multiset
-- Unordered Set
-
-### 🔄 Currently Learning
-- Priority Queue
-- Big O Notation
-
-### 📌 Upcoming
-- Map
-- Unordered Map
-- Recursion
-- Linked List
-- Binary Search
-- Trees
-- Graphs
-- Dynamic Programming
+- Online User Tracking System
+- Website Visitor Counter
+- Blacklisted Phone Number Manager
+- Unique Username Registry
+- Fast Membership Verification System
 
 ---
 
-## 🌱 This Repository Will Continuously Grow
+## Concepts Demonstrated
 
-New projects and topics will be added as I progress through my C++ and DSA journey.
+| Operation | Function |
+|------------|-----------|
+| Add Element | `insert()` |
+| Search Element | `find()` |
+| Remove Element | `erase()` |
+| Count Elements | `size()` |
+| Check Empty | `empty()` |
+| Traverse | Range-based for loop |
 
 ---
-⭐ Learning by building.
+
+## Difference Between Set and Unordered Set
+
+| Feature | Set | Unordered Set |
+|----------|------|---------------|
+| Duplicates Allowed | ❌ No | ❌ No |
+| Sorted | ✅ Yes | ❌ No |
+| Search | O(log n) | O(1) Average |
+| Insert | O(log n) | O(1) Average |
+| Erase | O(log n) | O(1) Average |
+
+---
+
+⭐ Learning DSA by building projects.
