@@ -1,137 +1,120 @@
-# 🚀 C++ STL & DSA Learning Projects
+# 📞 PhoneBook Management System
 
-This repository contains mini projects built while learning **C++**, **STL**, and **Data Structures & Algorithms**. The goal is to understand concepts deeply by implementing practical applications instead of only solving isolated problems.
-
----
-
-## 📚 Topics Covered
-
-### 📌 Stack
-- ✅ Mini To-Do List
-- ✅ Parentheses Validator
-
-Concepts:
-- `push()`
-- `pop()`
-- `top()`
-- `empty()`
-- LIFO principle
+A simple **console-based PhoneBook Management System** built with **C++** using the **Standard Template Library (STL)**. This project demonstrates how to use `std::map` to efficiently store, search, update, and manage contacts.
 
 ---
 
-### 📌 Queue
-- ✅ Token Management System
+## 🚀 Features
 
-Concepts:
-- `push()`
-- `pop()`
-- `front()`
-- `back()`
-- FIFO principle
-
----
-
-### 📌 Set
-- ✅ Roll Number Management System
-
-Concepts:
-- `insert()`
-- `find()`
-- `erase()`
-- `size()`
-- Unique elements
+* ➕ Add a new contact
+* 🔍 Search a contact by name
+* ✏️ Update an existing contact's phone number
+* ❌ Delete a contact
+* 📋 Display all saved contacts
+* 🚫 Prevent duplicate contacts
+* 📱 Validate phone number length
+* 🖥️ Menu-driven interface
 
 ---
 
-### 📌 Multiset
-- ✅ Student Attendance System
+## 🛠️ Technologies Used
 
-Concepts:
-- Duplicate elements
-- `count()`
-- Frequency counting
-
----
-
-### 📌 Unordered Set
-- ✅ Parking Lot Manager
-
-Concepts:
-- Fast searching
-- Unique elements
-- Average O(1) lookup
+* C++
+* Standard Template Library (STL)
+* `std::map`
+* Object-Oriented Programming (OOP)
 
 ---
 
-## 🛠 Repository Structure
+## 📚 Concepts Practiced
+
+* Associative Containers (`std::map`)
+* CRUD Operations
+* Key-Value Pair Storage
+* Searching using `find()`
+* Removing elements using `erase()`
+* Range-based loops
+* Functions
+* Classes and Objects
+* Menu-Driven Programming
+
+---
+
+## 📂 Project Structure
 
 ```text
-DSA-Learning-Projects
-│
-├── Stack
-│   ├── MiniTodoList.cpp
-│   └── ParenthesesValidator.cpp
-│
-├── Queue
-│   └── TokenManagementSystem.cpp
-│
-├── Set
-│   └── RollNumberManagementSystem.cpp
-│
-├── Multiset
-│   └── StudentAttendanceSystem.cpp
-│
-├── UnorderedSet
-│   └── ParkingLotManager.cpp
-│
+PhoneBook/
+│── main.cpp
 └── README.md
 ```
 
 ---
 
-## 🎯 Goals
+## ⚙️ How to Compile and Run
 
-- Learn STL deeply
-- Master Data Structures and Algorithms
-- Improve problem-solving skills
-- Build practical mini projects
-- Prepare for placements and software engineering roles
+### Compile
 
----
+```bash
+g++ main.cpp -o phonebook
+```
 
-## 📈 Learning Roadmap
+### Run (Linux/macOS)
 
-### ✅ Completed
-- C++ Basics
-- OOP
-- Vector
-- Pair
-- Sorting
-- Stack
-- Queue
-- Set
-- Multiset
-- Unordered Set
+```bash
+./phonebook
+```
 
-### 🔄 Currently Learning
-- Priority Queue
-- Big O Notation
+### Run (Windows)
 
-### 📌 Upcoming
-- Map
-- Unordered Map
-- Recursion
-- Linked List
-- Binary Search
-- Trees
-- Graphs
-- Dynamic Programming
+```bash
+phonebook.exe
+```
 
 ---
 
-## 🌱 This Repository Will Continuously Grow
+## 💻 Sample Output
 
-New projects and topics will be added as I progress through my C++ and DSA journey.
+```text
+============= PhoneBook =============
+
+1. Add Contact
+2. Search Contact
+3. Delete Contact
+4. Show All Contacts
+5. Update Phone Number
+6. Exit
+
+Your Choice: 1
+
+============ Add Contact ============
+Enter the name of contact (without blank space): Alex
+Enter the phone number: 9876543210
+
+Contact Added Successfully!!
+```
 
 ---
-⭐ Learning by building.
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+* Using `std::map` for efficient key-value storage
+* Implementing CRUD operations
+* Writing modular and reusable C++ functions
+* Designing menu-driven console applications
+* Applying STL containers to solve real-world problems
+
+---
+
+## 👨‍💻 Author
+
+**Yashwanth Krishna**
+
+* 💻 C++ & STL Learner
+* 📚 DSA Enthusiast
+* 🎮 Aspiring Game Developer
+
+---
+
+If you found this project helpful or interesting, feel free to ⭐ **star the repository**!
