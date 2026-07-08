@@ -1,65 +1,102 @@
 # 🚀 C++ STL & DSA Learning Projects
 
-This repository contains mini projects built while learning **C++**, **STL**, and **Data Structures & Algorithms**. The goal is to understand concepts deeply by implementing practical applications instead of only solving isolated problems.
+This repository contains mini projects built while learning **C++**, the **Standard Template Library (STL)**, and **Data Structures & Algorithms (DSA)**. Instead of learning concepts only through theory or coding problems, I build practical projects to strengthen my understanding and improve my problem-solving skills.
 
 ---
 
 ## 📚 Topics Covered
 
 ### 📌 Stack
-- ✅ Mini To-Do List
-- ✅ Parentheses Validator
 
-Concepts:
-- `push()`
-- `pop()`
-- `top()`
-- `empty()`
-- LIFO principle
+**Projects**
+
+* ✅ Mini To-Do List
+* ✅ Parentheses Validator
+
+**Concepts**
+
+* `push()`
+* `pop()`
+* `top()`
+* `empty()`
+* LIFO Principle
 
 ---
 
 ### 📌 Queue
-- ✅ Token Management System
 
-Concepts:
-- `push()`
-- `pop()`
-- `front()`
-- `back()`
-- FIFO principle
+**Projects**
+
+* ✅ Token Management System
+
+**Concepts**
+
+* `push()`
+* `pop()`
+* `front()`
+* `back()`
+* FIFO Principle
 
 ---
 
 ### 📌 Set
-- ✅ Roll Number Management System
 
-Concepts:
-- `insert()`
-- `find()`
-- `erase()`
-- `size()`
-- Unique elements
+**Projects**
+
+* ✅ Roll Number Management System
+
+**Concepts**
+
+* `insert()`
+* `find()`
+* `erase()`
+* `size()`
+* Unique Elements
 
 ---
 
 ### 📌 Multiset
-- ✅ Student Attendance System
 
-Concepts:
-- Duplicate elements
-- `count()`
-- Frequency counting
+**Projects**
+
+* ✅ Student Attendance System
+
+**Concepts**
+
+* Duplicate Elements
+* `count()`
+* Frequency Counting
 
 ---
 
 ### 📌 Unordered Set
-- ✅ Parking Lot Manager
 
-Concepts:
-- Fast searching
-- Unique elements
-- Average O(1) lookup
+**Projects**
+
+* ✅ Parking Lot Manager
+
+**Concepts**
+
+* Fast Searching
+* Unique Elements
+* Average **O(1)** Lookup
+
+---
+
+### 📌 Map
+
+**Projects**
+
+* ✅ PhoneBook Management System
+
+**Concepts**
+
+* Key-Value Storage
+* `insert()`
+* `find()`
+* `erase()`
+* `operator[]`
+* Ordered Data Storage
 
 ---
 
@@ -84,6 +121,10 @@ DSA-Learning-Projects
 ├── UnorderedSet
 │   └── ParkingLotManager.cpp
 │
+├── Map
+│   └── PhoneBookManagementSystem.cpp
+│
+│
 └── README.md
 ```
 
@@ -91,47 +132,66 @@ DSA-Learning-Projects
 
 ## 🎯 Goals
 
-- Learn STL deeply
-- Master Data Structures and Algorithms
-- Improve problem-solving skills
-- Build practical mini projects
-- Prepare for placements and software engineering roles
+* Master C++ and the Standard Template Library (STL)
+* Build a strong foundation in Data Structures & Algorithms
+* Improve logical thinking and problem-solving skills
+* Create practical, real-world mini projects
+* Prepare for software engineering interviews and placements
+* Build a professional GitHub portfolio
 
 ---
 
 ## 📈 Learning Roadmap
 
 ### ✅ Completed
-- C++ Basics
-- OOP
-- Vector
-- Pair
-- Sorting
-- Stack
-- Queue
-- Set
-- Multiset
-- Unordered Set
+
+* C++ Basics
+* Object-Oriented Programming (OOP)
+* Vector
+* Pair
+* Sorting
+* Stack
+* Queue
+* Set
+* Multiset
+* Unordered Set
+* Map
 
 ### 🔄 Currently Learning
-- Priority Queue
-- Big O Notation
+
+* Deque
+* Big O Analysis
 
 ### 📌 Upcoming
-- Map
-- Unordered Map
-- Recursion
-- Linked List
-- Binary Search
-- Trees
-- Graphs
-- Dynamic Programming
+
+* Deque
+* List
+* Recursion
+* Linked List
+* Binary Search
+* Binary Trees
+* Binary Search Trees
+* Heaps
+* Graphs
+* Dynamic Programming
 
 ---
 
-## 🌱 This Repository Will Continuously Grow
+## 🌱 Continuous Learning
 
-New projects and topics will be added as I progress through my C++ and DSA journey.
+This repository will continue to grow as I learn new STL containers, algorithms, and data structures. Every project is built to reinforce concepts through practical implementation and to document my progress as a programmer.
 
 ---
-⭐ Learning by building.
+
+## 👨‍💻 Author
+
+**Yashwanth Krishna**
+
+* 💻 C++ Developer
+* 📚 DSA Learner
+* 🎮 Aspiring Game Developer
+* 🚀 Building projects while mastering C++
+
+---
+
+⭐ **Learning by building. Improving with every project.**
